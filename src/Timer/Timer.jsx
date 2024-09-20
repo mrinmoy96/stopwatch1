@@ -41,7 +41,7 @@ const Timer = () => {
     <div>
       <h1 className={styles.timer}>Stopwatch</h1>
     
-      <p className={styles.timer}>Time : {formatTime(time)}</p>
+      <p className={styles.timer}>Time:  {formatTime(time)}</p>
       <div >
 	  {!isRunning ? (
           <button className={styles.button} onClick={handleStart}>
